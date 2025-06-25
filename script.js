@@ -13,3 +13,12 @@ squares.forEach(square => {
     square.style.background = 'red';
   });
 });
+
+const btn = document.getElementById("btn");
+
+btn.addEventListener("click", () => {
+  const input = prompt("Enter grid size (maximum: 100)")
+  if (input === null){
+    alert("Please enter a number between 1 and 100.")
+  }
+})
