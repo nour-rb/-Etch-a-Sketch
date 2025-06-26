@@ -1,8 +1,12 @@
 body {
   display: flex;
+<<<<<<< HEAD
+=======
+  flex-direction: column;
+>>>>>>> abf530ae254ff7bc74b1cf69462041ee384672ae
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  gap: 10px;
 }
 
 
